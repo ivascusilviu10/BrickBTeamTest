@@ -1,12 +1,19 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
-    public int levelIndex = 1;
+    [SerializeField] private string[] levelNames = { "Level 1", "Level 2", "Level 3" };
+
+    public int levelIndex = 0;
     public int score = 0;
     public int lives = 3;
+    public int delay = 5;
+
+    // public BrickSpawner[] brick { get; private set; }
+    // public Paddle paddle { get; private set; }
+    // public Ball ball { get; private set; }
 
     // Singleton + OnLevelLoaded refer pt obiecte daca se da reset lvl 
     private void Awake()
@@ -19,48 +26,35 @@ public class GameManager : MonoBehaviour
     // Luam referintele prin tags si apelam NewGame
     private void Start()
     {
-        GameObject playerObject = GameObject.FindWithTag("Player");
-        // GameObject brickSpawner = GameObject.FindWithTag("Spawner");
-
         NewGame();
     }
 
     private void NewGame()
     {
-        this.levelIndex = 1;
+        this.levelIndex = 0;
         this.score = 0;
         this.lives = 3;
 
-        LoadLevel(1);
+        LoadLevel(levelIndex);
     }
 
-    // TO DO:delay ca parametrii
-    private IEnumerator DelayedResetLevel()
+    // verif daca indexul este intre 0 si 2,daca nu incarcam scena Global(meniul)
+    private void LoadLevel(int index)
     {
-        yield return new WaitForSeconds(5f);
-        ResetLevel();
-    }
-
-    private IEnumerator DelayedGameOver()
-    {
-        yield return new WaitForSeconds(5f);
-        GameOver();
-    }
-
-    private void LoadLevel(int levelIndex)
-    {
-        this.levelIndex = levelIndex;
-
-        if (this.levelIndex > 3) {
-            this.levelIndex = 1;
+        if (index >= 0 && index < levelNames.Length) {
+            SceneManager.LoadScene(levelNames[index]);
+            this.levelIndex = index;
+        } else {
+            SceneManager.LoadScene("Global");
+            this.levelIndex = 0;
         }
-
-        SceneManager.LoadScene("Level " + levelIndex);
     }
 
     private void OnLevelLoaded(Scene scene, LoadSceneMode mode)
     {
-        
+       // this.brick = GameObject.FindWithTag("BrickSpawner");
+       // this.paddle = GameObject.FindWithTag("Paddle");
+       // this.ball = GameObject.FindWithTag("Ball");
     }
 
     private void ResetLevel()
@@ -68,9 +62,24 @@ public class GameManager : MonoBehaviour
         LoadLevel(this.levelIndex);
     }
 
+    // apelam LoadLevel de length pt ca length-ul array-ului este 3 
+    // si asa intra pe a 2-a conditie din if
     private void GameOver()
     {
-        NewGame();
+        LoadLevel(levelNames.Length);
+    }
+
+    // TO DO:delay ca parametrii
+    private IEnumerator DelayedResetLevel()
+    {
+        yield return new WaitForSeconds(delay);
+        ResetLevel();
+    }
+
+    private IEnumerator DelayedGameOver()
+    {
+        yield return new WaitForSeconds(delay);
+        GameOver();
     }
 
     /* Dupa ce e gata partea lui Stefan cu brickurile,updatez scorul
