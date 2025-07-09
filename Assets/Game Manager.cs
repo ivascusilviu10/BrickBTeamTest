@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -31,6 +32,19 @@ public class GameManager : MonoBehaviour
         this.lives = 3;
 
         LoadLevel(1);
+    }
+
+    // TO DO:delay ca parametrii
+    private IEnumerator DelayedResetLevel()
+    {
+        yield return new WaitForSeconds(5f);
+        ResetLevel();
+    }
+
+    private IEnumerator DelayedGameOver()
+    {
+        yield return new WaitForSeconds(5f);
+        GameOver();
     }
 
     private void LoadLevel(int levelIndex)
@@ -71,16 +85,16 @@ public class GameManager : MonoBehaviour
     }
     */
 
+    // in caz ca pica mingea, scadem o viata si resetam nivelul sau dam game over dupa caz
     public void Miss()
     {
         this.lives--;
 
         if (this.lives > 0) {
-            ResetLevel();
+            StartCoroutine(DelayedResetLevel());
         } else {
-            GameOver();
+            StartCoroutine(DelayedGameOver());
         }
-
     }
 
     /* Inca nu avem referinta pt brickuri
