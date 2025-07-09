@@ -7,17 +7,26 @@ public class BallMovement : MonoBehaviour
 
 
     [SerializeField] float speed = 10f;
+    [SerializeField] Vector3 StartingPoint = new Vector3(-8f, 6f, 0);
 
+    void Awake()
+    {
+      
+        rb = GetComponent<Rigidbody>();
+        rb.isKinematic = true;
+        transform.position = StartingPoint;//setare punct de start 
+    }
 
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+       
 
         StartCoroutine(DelayedLaunch());
     }
    
     void LaunchBall()
     {
+        rb.isKinematic = false;
 
         Vector3 dir = new Vector3(Random.Range(-1f, 1f), 1f, 0f).normalized;//Vector3(x,y,z)=>se randomizeaza directia pe x, pe y ramane constanta, pe z=0 pt ca folosim planul XoY, Vector normalizat => mentine viteza constanta indifirenet de directie (lungimea lui adica modulul este egal cu 1)
         rb.linearVelocity = dir * speed;
@@ -52,5 +61,23 @@ public class BallMovement : MonoBehaviour
             Vector3 newDirection = new Vector3(Mathf.Sin(angle), Mathf.Cos(angle), 0).normalized;//Mathf.Sin da deviatia pe x , Math.cos da deviatia pe y. Le folosim in ordinea asta pt ca in centrul trigonometric sin este pe verticala iar cos este pe orizontala
             rb.linearVelocity = newDirection * speed;
         }
+
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("ResetZone")) // Or use other.name == "ResetZone" if not using tags
+        {
+            ResetBall();
+        }
+    }
+
+    void ResetBall()
+    {
+        rb.linearVelocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
+        rb.isKinematic = true;
+        transform.position = StartingPoint;
+
+        StartCoroutine(DelayedLaunch());
     }
 }
