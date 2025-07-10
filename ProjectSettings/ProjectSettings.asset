@@ -4,7 +4,11 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
+<<<<<<< HEAD
   productGUID: 773e567e0f014f84d98e7ea5aceae46f
+=======
+  productGUID: 00176af16db88f24d8ba194087f39074
+>>>>>>> main
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +17,11 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
+<<<<<<< HEAD
   productName: Brick Braker
+=======
+  productName: BrickBreaker
+>>>>>>> main
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -376,7 +384,10 @@ PlayerSettings:
   - serializedVersion: 2
     m_BuildTarget: tvOS
     m_EncodingQuality: 1
+<<<<<<< HEAD
   m_BuildTargetGroupHDRCubemapEncodingQuality: []
+=======
+>>>>>>> main
   m_BuildTargetGroupLightmapSettings: []
   m_BuildTargetGroupLoadStoreDebugModeSettings: []
   m_BuildTargetNormalMapEncoding:
@@ -649,12 +660,19 @@ PlayerSettings:
   webGLMemoryLinearGrowthStep: 16
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
+<<<<<<< HEAD
+=======
+  webGLEnableWebGPU: 0
+>>>>>>> main
   webGLPowerPreference: 2
   webGLWebAssemblyTable: 0
   webGLWebAssemblyBigInt: 0
   webGLCloseOnQuit: 0
   webWasm2023: 0
+<<<<<<< HEAD
   webEnableSubmoduleStrippingCompatibility: 0
+=======
+>>>>>>> main
   scriptingDefineSymbols: {}
   additionalCompilerArguments: {}
   platformArchitecture: {}
@@ -676,14 +694,22 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
+<<<<<<< HEAD
   metroPackageName: Brick Braker
+=======
+  metroPackageName: BrickBreaker
+>>>>>>> main
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
+<<<<<<< HEAD
   metroApplicationDescription: Brick Braker
+=======
+  metroApplicationDescription: BrickBreaker
+>>>>>>> main
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -753,6 +779,7 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
+<<<<<<< HEAD
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: cdd2fc02-fba7-4ed2-a2ba-27901844b3c1
@@ -760,6 +787,15 @@ PlayerSettings:
   qualitySettingsNames: []
   projectName: Brick Braker
   organizationId: laurnuta30
+=======
+  activeInputHandler: 1
+  windowsGamepadBackendHint: 0
+  cloudProjectId: 
+  framebufferDepthMemorylessMode: 0
+  qualitySettingsNames: []
+  projectName: 
+  organizationId: 
+>>>>>>> main
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
@@ -768,4 +804,7 @@ PlayerSettings:
   insecureHttpOption: 0
   androidVulkanDenyFilterList: []
   androidVulkanAllowFilterList: []
+<<<<<<< HEAD
   androidVulkanDeviceFilterListAsset: {fileID: 0}
+=======
+>>>>>>> main
