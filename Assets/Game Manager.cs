@@ -11,9 +11,9 @@ public class GameManager : MonoBehaviour
     public int lives = 3;
     public int delay = 5;
 
-    // public BrickSpawner[] brick { get; private set; }
-    // public Paddle paddle { get; private set; }
-    // public Ball ball { get; private set; }
+    // public BrickManager[] bricks;
+    // public Paddle paddle;
+    // public BallMovement ball;
 
     // Singleton + OnLevelLoaded refer pt obiecte daca se da reset lvl 
     private void Awake()
@@ -52,14 +52,16 @@ public class GameManager : MonoBehaviour
 
     private void OnLevelLoaded(Scene scene, LoadSceneMode mode)
     {
-       // this.brick = GameObject.FindWithTag("BrickSpawner");
-       // this.paddle = GameObject.FindWithTag("Paddle");
-       // this.ball = GameObject.FindWithTag("Ball");
+       // bricks = GameObject.FindWithTag("Brick");  //tag de pus pe brick prefab
+       // paddle = GameObject.FindWithTag("Paddle");
+       // ball = GameObject.FindWithTag("Ball");  // rezolvat
     }
 
     private void ResetLevel()
     {
         LoadLevel(this.levelIndex);
+        // ball.ResetBall();
+        // paddle.ResetPaddle();
     }
 
     // apelam LoadLevel de length pt ca length-ul array-ului este 3 
@@ -69,7 +71,6 @@ public class GameManager : MonoBehaviour
         LoadLevel(levelNames.Length);
     }
 
-    // TO DO:delay ca parametrii
     private IEnumerator DelayedResetLevel()
     {
         yield return new WaitForSeconds(delay);
@@ -83,9 +84,9 @@ public class GameManager : MonoBehaviour
     }
 
     /* Dupa ce e gata partea lui Stefan cu brickurile,updatez scorul
-    public void AddScore(int placeholder)
+    public void AddScore(BrickManager brick)
     {
-        this.score += BrickSpawner.points; // Placeholder pt punctele unui brick
+        this.score += brick.brickPoints; // Placeholder pt punctele unui brick
 
         if(LevelCompleted())
         {
@@ -111,11 +112,10 @@ public class GameManager : MonoBehaviour
     {
         for (int i = 1; i <= this.bricks.Length; i++)
         {
-            if (this.referintaBricks[i].gameObject.activeInHierarchy) {
+            if (this.bricks[i].gameObject.activeInHierarchy) {
                 return false;
             }
         }
-
         return true;
     }
     */
