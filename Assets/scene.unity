@@ -320,6 +320,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick
       objectReference: {fileID: 0}
+    - target: {fileID: 1825333849873320060, guid: aeb66f10df706194ab197605308ecd26, type: 3}
+      propertyPath: m_TagString
+      value: Paddle
+      objectReference: {fileID: 0}
     - target: {fileID: 3491962104714770617, guid: aeb66f10df706194ab197605308ecd26, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.5
