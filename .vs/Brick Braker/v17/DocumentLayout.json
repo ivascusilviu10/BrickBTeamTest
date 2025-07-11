@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Laur\\Brick Braker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|c:\\users\\laur\\brick braker\\assets\\scripts\\soundplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|c:\\users\\laur\\brick braker\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|c:\\users\\laur\\brick braker\\assets\\scripts\\resolutionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resolutionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|C:\\Users\\Laur\\Brick Braker\\assets\\scripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|C:\\Users\\Laur\\Brick Braker\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|C:\\Users\\Laur\\Brick Braker\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|C:\\Users\\Laur\\Brick Braker\\assets\\scripts\\mainmenumusicplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenumusicplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|C:\\Users\\Laur\\Brick Braker\\assets\\scripts\\musiclibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\musiclibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|c:\\users\\laur\\brick braker\\assets\\scripts\\gamescenemusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescenemusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|C:\\Users\\Laur\\Brick Braker\\assets\\scripts\\dropdownexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dropdownexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|C:\\Users\\Laur\\Brick Braker\\assets\\scripts\\resolutionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resolutionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|C:\\Users\\Laur\\Brick Braker\\assets\\scripts\\soundplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{505DF730-874D-0875-08B3-3443D803F737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,37 +46,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SoundPlay.cs",
-              "DocumentMoniker": "C:\\Users\\Laur\\Brick Braker\\Assets\\Scripts\\SoundPlay.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundPlay.cs",
-              "ToolTip": "C:\\Users\\Laur\\Brick Braker\\Assets\\Scripts\\SoundPlay.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SoundPlay.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "GameSceneMusic.cs",
+              "DocumentMoniker": "C:\\Users\\Laur\\Brick Braker\\Assets\\Scripts\\GameSceneMusic.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSceneMusic.cs",
+              "ToolTip": "C:\\Users\\Laur\\Brick Braker\\Assets\\Scripts\\GameSceneMusic.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameSceneMusic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T16:25:12.82Z",
+              "WhenOpened": "2025-07-11T06:46:44.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainMenuMusicPlay.cs",
+              "DocumentMoniker": "C:\\Users\\Laur\\Brick Braker\\Assets\\Scripts\\MainMenuMusicPlay.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuMusicPlay.cs",
+              "ToolTip": "C:\\Users\\Laur\\Brick Braker\\Assets\\Scripts\\MainMenuMusicPlay.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenuMusicPlay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T06:27:55.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ResolutionManager.cs",
-              "DocumentMoniker": "C:\\Users\\Laur\\Brick Braker\\Assets\\Scripts\\ResolutionManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ResolutionManager.cs",
-              "ToolTip": "C:\\Users\\Laur\\Brick Braker\\Assets\\Scripts\\ResolutionManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ResolutionManager.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwDIAAAAAAAAAAAAAAA==",
+              "Title": "MusicManager.cs",
+              "DocumentMoniker": "C:\\Users\\Laur\\Brick Braker\\Assets\\Scripts\\MusicManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MusicManager.cs",
+              "ToolTip": "C:\\Users\\Laur\\Brick Braker\\Assets\\Scripts\\MusicManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MusicManager.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowC4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T12:57:32.816Z",
+              "WhenOpened": "2025-07-11T05:54:56.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "MusicLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\Laur\\Brick Braker\\Assets\\Scripts\\MusicLibrary.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MusicLibrary.cs",
+              "ToolTip": "C:\\Users\\Laur\\Brick Braker\\Assets\\Scripts\\MusicLibrary.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MusicLibrary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T05:48:16.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SoundPlay.cs",
+              "DocumentMoniker": "C:\\Users\\Laur\\Brick Braker\\Assets\\Scripts\\SoundPlay.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundPlay.cs",
+              "ToolTip": "C:\\Users\\Laur\\Brick Braker\\Assets\\Scripts\\SoundPlay.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SoundPlay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T16:25:12.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResolutionManager.cs",
+              "DocumentMoniker": "C:\\Users\\Laur\\Brick Braker\\Assets\\Scripts\\ResolutionManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ResolutionManager.cs",
+              "ToolTip": "C:\\Users\\Laur\\Brick Braker\\Assets\\Scripts\\ResolutionManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ResolutionManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T12:57:32.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "DropDownExample.cs",
               "DocumentMoniker": "C:\\Users\\Laur\\Brick Braker\\Assets\\Scripts\\DropDownExample.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DropDownExample.cs",
@@ -72,15 +138,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "C:\\Users\\Laur\\Brick Braker\\Assets\\Scripts\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PauseMenu.cs",
               "ToolTip": "C:\\Users\\Laur\\Brick Braker\\Assets\\Scripts\\PauseMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\PauseMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T08:37:27.876Z"
+              "WhenOpened": "2025-07-10T08:37:27.876Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -90,9 +157,10 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
               "ToolTip": "C:\\Users\\Laur\\Brick Braker\\Assets\\Scripts\\MainMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T07:57:57.081Z"
+              "WhenOpened": "2025-07-10T07:57:57.081Z",
+              "EditorCaption": ""
             }
           ]
         }

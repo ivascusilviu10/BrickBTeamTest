@@ -36,15 +36,26 @@ public class PauseMenu : MonoBehaviour
             PauseMenuCanvas.SetActive(true);
             Time.timeScale = 0f;
             Paused = true;
-        }
+        if (MusicManager.Instance != null)
+            MusicManager.Instance.PauseMusic();
+
+
+    }
         public void Play()
         {
             PauseMenuCanvas.SetActive(false);
             Time.timeScale = 1f;
             Paused = false;
-        }
+        if (MusicManager.Instance != null)
+            MusicManager.Instance.ResumeMusic();
+    }
         public void MainMenuButton()
     {
+        if (MusicManager.Instance != null)
+            MusicManager.Instance.StopMusic(); 
+
+        Time.timeScale = 1f;
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }
